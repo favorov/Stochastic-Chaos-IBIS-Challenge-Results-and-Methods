@@ -4,7 +4,7 @@
 Stochastic Chaos
 
 ### Primary Disciplines
-A2G-PWM, G2A-PWM -- actually, we tried to identify motifs in everything we could extract one from.
+A2G-PWM, G2A-PWM -- actually, we tried to identify motifs in everything we could identify one in.
 
 # Summary
 
