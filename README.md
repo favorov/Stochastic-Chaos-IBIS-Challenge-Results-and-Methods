@@ -6,10 +6,14 @@ Stochastic Chaos
 ### Primary Disciplines
 A2G-PWM, G2A-PWM -- actually, we tried to identify motifs in everything we could extract one from.
 
-## Summary
+# Summary
 
-SeSiMCMC is a Gibbs sampler for de-novo identification of similar nucleotide substrings in the input. The input is a collection of nucleotide sequences, and we know that many of them contain the binding sites of the TF of interest. So, the substrings are supposed to be the TF binding sites of the TF. The algorythm uses PWM model to describe the motif. The SeSIMCMC paper was published 20 years ago, and our main goal of participation in the challenge was to answer whether the algorythhms of this class are still usable in the modern world of deep learning models.
+SeSiMCMC is a Gibbs sampler for de-novo identification of similar nucleotide substrings in the input. The input is a collection of nucleotide sequences, and we know that many of them contain the binding sites of the TF of interest. So, the substrings are supposed to be the TF binding sites of the TF. The algorythm uses the PWM model to describe the motif. The SeSIMCMC paper was published 20 years ago, and our main goal of participation in the challenge was to answer whether the algorythhms of this class are still usable in the modern world of deep learning models.
 
+### Implementation & Software
+SeSiMCMC [doi: 10.1093/bioinformatics/bti336] identified motifs in the input sequence data. R, perl and bash were used to prepare and to prepare the results to submission.
+
+# Methods
 ## Motif search
 We searched for motifs in the fasta files (see folow) using the SeSiMCMC (https://github.com/favorov/SeSiMCMC) software.
 Generally, it 
