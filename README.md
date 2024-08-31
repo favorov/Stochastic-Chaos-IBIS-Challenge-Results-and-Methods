@@ -1,8 +1,18 @@
-# Methods stub Stochastic Chaos participance in IBIS challenge
+# SeSiMCMC revisited: Stochastic Chaos participates in IBIS challenge
+
+### Team name
+Stochastic Chaos
+
+### Primary Disciplines
+A2G-PWM, G2A-PWM -- actually, we tried to identify motifs in everything we could extract one from.
+
+## Summary
+
+SeSiMCMC is a Gibbs sampler for de-novo identification of similar nucleotide substrings in the input. The input is a collection of nucleotide sequences, and we know that many of them contain the binding sites of the TF of interest. So, the substrings are supposed to be the TF binding sites of the TF. The algorythm uses PWM model to describe the motif. The SeSIMCMC paper was published 20 years ago, and our main goal of participation in the challenge was to answer whether the algorythhms of this class are still usable in the modern world of deep learning models.
 
 ## Motif search
 We searched for motifs in the fasta files (see folow) using the SeSiMCMC (https://github.com/favorov/SeSiMCMC) software.
-Generally, it is a Gibbs sapler for de-novo identification of similar nucleotide substrings in the input. The substrings are supposed to be the TF binding sites.
+Generally, it 
 
 The default search parameters were used, with two adjustmets. For SMiLE-seq, we set the probability for an input sequence to be garbage (i.e not to carry the motif) to 0.9 instead of the default 0.1 . For all the runs, we set the number of chains (attempts) to 7 instead of default 3. The time limit was posted to 10000 seconds (the default is 1000). 
 
