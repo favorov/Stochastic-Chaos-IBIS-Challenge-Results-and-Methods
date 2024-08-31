@@ -1,4 +1,4 @@
-# SeSiMCMC revisited: Stochastic Chaos participates in IBIS challenge
+# SeSiMCMC revisited: Stochastic Chaos participates in the IBIS challenge
 
 ### Team name
 Stochastic Chaos
