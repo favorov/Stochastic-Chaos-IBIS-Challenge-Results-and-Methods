@@ -32,3 +32,12 @@ The SeSiMCMC --ibis switch prepares the output in ibis format, still when the ta
 
 ## References
 [doi:10.1093/bioinformatics/bti336] SeSIiMCMC.
+
+## Team members
+
+Alexander Favorov, Research Associate @ JHU, Senior Researcher @ VIGG RAS
+
+Dmitriis Lvovs, Research Associate @ JHU
+
+Michael Vitlin, Intern @ JHU, Student @ Long Reach High School
+
